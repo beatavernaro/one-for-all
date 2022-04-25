@@ -24,7 +24,7 @@ export default function Records({ list }) {
 
   return (
     <Flex flexDirection="column" justifyContent="center" alignItems="center">
-      <Heading color="blue.400">Gravações das aulas</Heading>
+      <Heading color="orange.200">Gravações das aulas</Heading>
       <Stack
         flexDir="column"
         marginTop="15px"
@@ -37,7 +37,7 @@ export default function Records({ list }) {
         <Box>
           {lastClass && (
             <Box
-              bg="red.500"
+              bg="yellow.500"
               fontSize={14}
               w="600px"
               p={2}
@@ -95,7 +95,7 @@ export default function Records({ list }) {
                 const { id, description, url, secret } = record;
                 return (
                   <Box
-                    bg="blue.500"
+                    bg="orange.500"
                     fontSize={14}
                     w="500px"
                     p={2}
