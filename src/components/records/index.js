@@ -37,7 +37,7 @@ export default function Records({ list }) {
         <Box>
           {lastClass && (
             <Box
-              bg="yellow.500"
+              bg="orange.500"
               fontSize={14}
               w="600px"
               p={2}
@@ -95,7 +95,7 @@ export default function Records({ list }) {
                 const { id, description, url, secret } = record;
                 return (
                   <Box
-                    bg="orange.500"
+                    bg="yellow.500"
                     fontSize={14}
                     w="500px"
                     p={2}
