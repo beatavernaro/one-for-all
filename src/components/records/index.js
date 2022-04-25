@@ -18,7 +18,7 @@ export default function Records({ list }) {
     for ( let element of document.querySelectorAll(".copy__Alert") ) {
       element.style.display = "none"
     }
-    setCopied("Link copiado com sucesso")
+    setCopied("Senha copiada com sucesso")
     e.target.nextSibling.style.display = "block"
   }
 
